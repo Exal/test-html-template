@@ -52,7 +52,7 @@ margin: auto;
 
 #backtotop:hover
 {
-	color: #0060ff;
+	color: #0060FF;
 }
 
 .sidebar {
@@ -173,6 +173,7 @@ color: #606060;
 
 .block_body {
 border-bottom: 1px solid #c0c0c0;
+vertical-align: top;
 }
 
 .block_body time {
