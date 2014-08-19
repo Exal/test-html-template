@@ -40,19 +40,21 @@ margin: auto;
 	bottom : 0px;
 	right: 0px;
 	padding : 10px;
-	width : 100px;
 	text-align : center;
 	background-color : rgba(0, 0, 0, 0.5);
 	border-radius : 8px;
 	color : #FFF;
-	font-size : 14px;
 	z-index	: 1000;
-	transition: all 0.3s ease; 
+	transition: all 0.3s ease;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 #backtotop:hover
 {
 	color: #0060FF;
+	text-decoration: none;
+	text-shadow: rgba(0,0,0,0.5) 0 2px 1px;
 }
 
 .sidebar {
@@ -250,10 +252,13 @@ color:#fff;
 text-decoration:none;
 display:block;
 transition: all 0.3s ease;
+font-weight: bold;
+text-transform: uppercase;
 }
 #streams ul li a:hover {
 color: #0060FF;
 text-decoration: none;
+text-shadow: rgba(0,0,0,0.5) 0 2px 1px;
 }
 
 #streams_block {
